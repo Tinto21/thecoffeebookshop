@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Library Cafe</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Library Cafe</h1>
+      <nav>
+        <ul>
+          <li><a class="copy-03 bold primary-navigation-item" href="/Menu" data-element-id="menu-item-carta-486">
+              Carta
+            </a>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Photo Gallery</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <img src="cafe.jpg" alt="Library Cafe">
+        <p>Welcome to our cafe and library! We offer a wide variety of beverages and snacks, as well as access to books and magazines. Explore our site to learn more!</p>
+      </section>
+      <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li>
+            <h3>Coffee</h3>
+            <p>Latte - $3.50</p>
+            <p>Cappuccino - $3.50</p>
+            <p>Espresso - $2.50</p>
+          </li>
+          <li>
+            <h3>Tea</h3>
+            <p>Herbal Tea - $2.50</p>
+            <p>Black Tea - $2.50</p>
+            <p>Green Tea - $2.50</p>
+          </li>
+          <li>
+            <h3>Cold Beverages</h3>
+            <p>Soda - $1.50</p>
+            <p>Lemonade - $2.50</p>
+            <p>Water - $1.00</p>
+          </li>
+          <li>
+            <h3>Snacks</h3>
+            <p>Bagel with Cream Cheese - $2.50</p>
+            <p>Chicken Sandwich - $4.50</p>
+            <p>Vegetarian Wrap - $3.50</p>
+          </li>
+          <li>
+            <h3>Breakfast</h3>
+            <p>French Toast - $5.50</p>
+            <p>Scrambled Eggs - $4.50</p>
+            <p>Ham and Cheese Croissant - $3.50</p>
+          </li>
+          <li>
+            <h3>Lunch</h3>
+            <p>Caesar Salad - $6.50</p>
+            <p>Vegetable Pizza - $7.50</p>
+            <p>Chicken Alfredo Pasta - $8.50</p>
+          </li>
+        </ul>
+      </section>
+      <section id="services">
+        <h2>Services</h2>
+      </section>
+      <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <!-- Photos of the café and bookstore would go here -->
+      </section>
+      <section id="events">
+        <h2>Events</h2>
+        <ul>
+          <li>
+            <h3>Poetry Reading</h3>
+            <p>Date: April 20th</p>
+            <p>Time: 7pm</p>
+          </li>
+          <li>
+            <h3>Game Night</h3>
+            <p>Date: April 25th</p>
+            <p>Time: 8pm</p>
+          </li>
+          <li>
+            <h3>Book Launch</h3>
+            <p>Date: April 30th</p>
+            <p>Time: 6pm</p>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch for reservations, questions, or comments!</p>
+        <form action="submit-form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>All Rights Reserved © Bookstore Café 2023</p>
+    </footer>
+  </body>
+</html>
